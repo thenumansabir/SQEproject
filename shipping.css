@@ -1,0 +1,40 @@
+.shippingTitle {
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+}
+.shipping{
+    display: flex;
+}
+.left{
+    display: flex;
+    margin-left: 50px;
+    margin-top: 80px;
+    margin-right: 30px;
+}
+.image{
+    height: 300px;
+    width: 300px;
+}
+.detail{
+    margin-left: 25px;
+}
+.nameQty{
+    display: flex;
+    align-items: center;
+}
+.nameQty span{
+    font-size: 25px;
+    font-weight: 600;
+    position: absolute;
+    left: 675px;
+
+}
+.description{
+    width: 350px !important;
+
+}
+.right{
+    border-left: 3px solid;
+    padding-left: 30px;
+}
