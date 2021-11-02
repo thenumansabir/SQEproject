@@ -1,6 +1,14 @@
 body {
     background-color: #d6e4e6 !important;
 }
+nav{
+    display: flex;
+    justify-content: center;
+}
+.logo{
+    width: 150px;
+    height: 150px;
+}
 .title {
     color: #c27ba0;
     font-size: 70px;

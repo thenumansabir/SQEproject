@@ -1,0 +1,57 @@
+/********** Standard Header Start **********/
+body {
+    background-color: #d6e4e6 !important;
+}
+.nav-bar{
+    background-color: rgb(54 187 173);
+}
+.nav-bar .logo{
+    width: 105px;
+    height: 105px;
+    position: absolute;
+
+}
+.nav-bar .navtitle {
+    color: #c27ba0;
+    font-size: 70px;
+    display: flex;
+    justify-content: left;
+    padding-left: 20px;
+    margin-left: 100px;
+    font-style: italic;
+}
+
+.nav-bar .navButton {
+    display: flex;
+    align-items: center;
+    position: relative;
+    bottom: 63px;
+    right: 40px;
+    float: right;
+}
+
+.nav-bar .navButton .loginButton {
+    height: 40px;
+    width: 100px;
+    font-size: 20px;
+    font-weight: 800;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.nav-bar .navButton .material-icons {
+    font-size: 45px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.nav-bar .navButton small {
+    position: absolute;
+    right: 10px;
+    bottom: -5px;
+    font-size: 100px;
+    color: red;
+    visibility: hidden;
+}
+
+/********** Header End **********/

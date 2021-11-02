@@ -38,3 +38,20 @@
     border-left: 3px solid;
     padding-left: 30px;
 }
+.form{
+    width: 700px;
+}
+label{
+    font-size: 20px;
+}
+.form-check{
+    margin-top: 15px;
+
+}
+.btn{
+    margin-top: 15px;
+    position: relative;
+    float: right;
+    bottom: 30px;
+    right: 30px;
+}

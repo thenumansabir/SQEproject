@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="loginStyle.css">
+    <link rel="stylesheet" href="login.css">
     <title>Inventory Management System</title>
     <link rel="stylesheet" href="/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -14,6 +14,7 @@
 
 <body class="mainBody">
     <nav>
+        <img class="logo" src="images/logo.png" alt="">
         <div class="title">Inventory Management System</div>
     </nav>
     <div class="outer">
@@ -21,12 +22,13 @@
             <span class="note">Log in to IMS</span>
             <span id="notify" class="notify">You must log in to continue.</span>
             <div class="fields">
-                <div class="emailField" >
+                <div class="emailField">
                     <input id="email" type="Email" placeholder="Email address or phone number">
                     <img id="invalid" src="Images/invalid.png" alt="">
                 </div>
                 <div id="alert">
-                    The email address or mobile number you entered isn't connected to an account. Find your account and log in.
+                    The email address or mobile number you entered isn't connected to an account. Find your account and
+                    log in.
                 </div>
                 <input id="password" type="Password" placeholder="Password">
             </div>
