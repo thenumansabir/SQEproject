@@ -13,13 +13,15 @@
     height: 150px;
 }
 .title {
-    color: #c27ba0;
+    color: #a94f4f;
     font-size: 70px;
     display: flex;
     justify-content: center;
     position: relative;
     top: 70px;
-    left: 65px;
+    left: 100px;
+    max-width: 1485px;
+
 }
 
 .mainCategories {

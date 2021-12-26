@@ -1,9 +1,11 @@
 /********** Standard Header Start **********/
 body {
     background-color: #d6e4e6 !important;
+    max-width: 1585px;
 }
 .nav-bar{
     background-color: rgb(54 187 173);
+    max-width: 1585px;
 }
 .nav-bar .logo{
     width: 105px;
@@ -12,7 +14,7 @@ body {
 
 }
 .nav-bar .navtitle {
-    color: #c27ba0;
+    color: #a94f4f;
     font-size: 70px;
     display: flex;
     justify-content: left;
