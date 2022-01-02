@@ -5,10 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="header.css">
-    <link rel="stylesheet" href="product.css">
-    <title>Inventory Management System</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="/style/header.css">
+    <link rel="stylesheet" href="/style/product.css">
+    <title>Online Shopping Store</title>
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
 </head>
@@ -16,8 +16,8 @@
 <body>
     <nav>
         <div class="nav-bar">
-                <img class="logo" src="images/logo.png" alt="">
-                <div class="navtitle">Inventory Management System</div>
+                <img class="logo" src="/images/logo.png" alt="">
+                <div class="navtitle">Online Shopping Store</div>
             <div class="navButton">
                 <a href="login.html">
                     <button class="loginButton">Login</button>
@@ -31,13 +31,13 @@
     <!-- Body Start -->
     <div class="mainDiv">
         <div>
-            <div class="prodImgDiv"><img class="productImage" src="images/kidsCorner/Electric Car.jpg"
+            <div class="prodImgDiv"><img class="productImage" src="/images/kidsCorner/Electric Car.jpg"
                     alt="Electric Car"></div>
         </div>
         <div>
             <h1 class="prodName">Electric Car</h1>
             <h2>Electric Car is on Sale!</h2>
-            <h4>In Stock!</h4>
+            <h4 id="status">In Stock!</h4>
             <h5>Description</h5>
             <div class="description">
                 <ul class="list">
@@ -52,17 +52,21 @@
             <div class="cart">
                 <div class="quantity">
                     <label for="Quantity">Qty: </label>
-                    <input type="text" name="" id="">
+                    <!-- <input type="text" name="" id=""> -->
+                    <span id="disable" class="change" onclick="decrement();">-</span>
+                    <p id="number" class="number">1</p>
+                    <span class="change" onclick="increment();">+</span>
                 </div>
                 <div class="addCart">
-                    <a href="shipping.html">
-                        <button>Add to cart</button>
+                    <a href="kidsShipping.html">
+                        <button id="stock">Add to cart</button>
                     </a>
                 </div>
             </div>
         </div>
     </div>
-    <script src="js/bootstrap.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/script.js"></script>
 </body>
 
 </html>

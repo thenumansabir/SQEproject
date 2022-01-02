@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style/header.css">
+    <link rel="stylesheet" href="/style/shipping.css">
+    <title>Online Shopping Store</title>
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</head>
+
+<body>
+    <nav>
+        <div class="nav-bar">
+            <img class="logo" src="images/logo.png" alt="">
+            <div class="navtitle">Online Shopping Store</div>
+        </div>
+    </nav>
+    <!-- Header End -->
+    <!-- Body Start -->
+    <div>
+        <h1 class="shippingTitle">Shipping & Billing</h1>
+        <div class="shipping">
+
+            <div class="left">
+                <div>
+                    <img class="image" src="/images/smartPhones/6s.jpg" alt="iPhone 6s">
+                </div>
+                <div class="detail">
+                    <div class="nameQty">
+                        <h3>iPhone 6s</h3>
+                        <span id="test"></span>
+                    </div>
+                    <div>
+                        <h5>Description</h5>
+                        <div class="description">
+                            <ul class="list">
+                                <li><b>Model Name :</b></b> iPhone 6s</li>
+                                <li><b>Wireless Carrier:</b> Unlocked for All Carriers</li>
+                                <li><b>Brand:</b> Apple</li>
+                                <li><b>Form Factor:</b> SmartPhone </li>
+                                <li><b>Memony Storage Capacity:</b> 64 GB</li>
+                                <li><b>Operating System:</b> iOS 14</li>
+                                <li><b>Color:</b> Rose Gold </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="right">
+                <h1>Shipping Address</h1>
+<!-- Here I used Bootstrap  -->
+                <form class="form">
+                    <div class="form-row">
+                      <div class="form-group col-md-6">
+                        <label for="inputEmail4">First Name</label>
+                        <input type="text" class="form-control" id="firstName" id="inputEmail4" placeholder="ABC">
+                      </div>
+                      <div class="form-group col-md-6">
+                        <label for="inputPassword4">Last Name</label>
+                        <input type="text" class="form-control" id="lastName" id="inputPassword4" placeholder="XYZ">
+                      </div>
+                    </div>
+                    <div class="form-group  col-md-6">
+                      <label for="inputAddress">Phone #</label>
+                      <input type="text" class="form-control" id="phone" id="inputAddress" placeholder="0521234567">
+                    </div>
+                    <div class="form-row">
+                      <div class="form-group col-md-6">
+                        <label for="inputCity">City</label>
+                        <input type="text" class="form-control" id="city" id="inputCity" placeholder="Islamabad">
+                      </div>
+                      <div class="form-group">
+                        <label for="inputAddress2">Address</label>
+                        <input type="text" class="form-control" id="address" id="inputAddress2" placeholder="1234 Main St">
+                      </div>
+                      <div class="form-group col-md-4">
+                        <label for="inputState">Province</label>
+                        <select id="province" id="inputState" class="form-control">
+                          <option selected>Choose...</option>
+                          <option>Islamabad</option>
+                          <option>Balochistan</option>
+                          <option>Khyber Pakhtunkhwa</option>
+                          <option>Punjab</option>
+                          <option>Sindh</option>
+                          <option>Gilgit-Baltistan</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck">
+                        <label class="form-check-label" for="gridCheck">
+                          Check me out
+                        </label>
+                      </div>
+                    </div>
+                  </form>
+                    <button onclick="getData();" type="submit" class="btn btn-primary">Confirm Order</button>
+            </div>
+        </div>
+    </div>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/script.js"></script>
+</body>
+
+</html>
